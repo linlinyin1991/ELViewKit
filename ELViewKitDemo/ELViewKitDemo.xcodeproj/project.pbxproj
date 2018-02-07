@@ -16,9 +16,9 @@
 		BD057C76202AD1F9001144E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C75202AD1F9001144E3 /* main.m */; };
 		BD057C80202AD1F9001144E3 /* ELViewKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C7F202AD1F9001144E3 /* ELViewKitDemoTests.m */; };
 		BD057C8B202AD1F9001144E3 /* ELViewKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C8A202AD1F9001144E3 /* ELViewKitDemoUITests.m */; };
-		BD057CA3202AE4A7001144E3 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057CA2202AE4A7001144E3 /* UIView+Empty.m */; };
-		BD057CA6202AE4D3001144E3 /* ELEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057CA5202AE4D3001144E3 /* ELEmptyView.m */; };
-		BD057CAA202AEC45001144E3 /* EmptyImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD057CA9202AEC45001144E3 /* EmptyImage.bundle */; };
+		BD057CB0202B02C1001144E3 /* ELEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057CAD202B02C1001144E3 /* ELEmptyView.m */; };
+		BD057CB1202B02C1001144E3 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057CAE202B02C1001144E3 /* UIView+Empty.m */; };
+		BD057CB2202B02C1001144E3 /* EmptyImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD057CAF202B02C1001144E3 /* EmptyImage.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +58,11 @@
 		BD057C86202AD1F9001144E3 /* ELViewKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELViewKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD057C8A202AD1F9001144E3 /* ELViewKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELViewKitDemoUITests.m; sourceTree = "<group>"; };
 		BD057C8C202AD1F9001144E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD057CA1202AE4A7001144E3 /* UIView+Empty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Empty.h"; path = "../ELViewKit/UIView+Empty.h"; sourceTree = "<group>"; };
-		BD057CA2202AE4A7001144E3 /* UIView+Empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Empty.m"; path = "../ELViewKit/UIView+Empty.m"; sourceTree = "<group>"; };
-		BD057CA4202AE4D3001144E3 /* ELEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ELEmptyView.h; path = ../ELViewKit/ELEmptyView.h; sourceTree = "<group>"; };
-		BD057CA5202AE4D3001144E3 /* ELEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ELEmptyView.m; path = ../ELViewKit/ELEmptyView.m; sourceTree = "<group>"; };
-		BD057CA9202AEC45001144E3 /* EmptyImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = EmptyImage.bundle; path = ../ELViewKit/EmptyImage.bundle; sourceTree = "<group>"; };
+		BD057CAB202B02C1001144E3 /* ELEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELEmptyView.h; path = ../ELEmptyView/ELEmptyView.h; sourceTree = "<group>"; };
+		BD057CAC202B02C1001144E3 /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Empty.h"; path = "../ELEmptyView/UIView+Empty.h"; sourceTree = "<group>"; };
+		BD057CAD202B02C1001144E3 /* ELEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELEmptyView.m; path = ../ELEmptyView/ELEmptyView.m; sourceTree = "<group>"; };
+		BD057CAE202B02C1001144E3 /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Empty.m"; path = "../ELEmptyView/UIView+Empty.m"; sourceTree = "<group>"; };
+		BD057CAF202B02C1001144E3 /* EmptyImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = EmptyImage.bundle; path = ../ELEmptyView/EmptyImage.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,11 +168,11 @@
 		BD057CA0202AE385001144E3 /* ELViewKit */ = {
 			isa = PBXGroup;
 			children = (
-				BD057CA9202AEC45001144E3 /* EmptyImage.bundle */,
-				BD057CA1202AE4A7001144E3 /* UIView+Empty.h */,
-				BD057CA2202AE4A7001144E3 /* UIView+Empty.m */,
-				BD057CA4202AE4D3001144E3 /* ELEmptyView.h */,
-				BD057CA5202AE4D3001144E3 /* ELEmptyView.m */,
+				BD057CAB202B02C1001144E3 /* ELEmptyView.h */,
+				BD057CAD202B02C1001144E3 /* ELEmptyView.m */,
+				BD057CAF202B02C1001144E3 /* EmptyImage.bundle */,
+				BD057CAC202B02C1001144E3 /* UIView+Empty.h */,
+				BD057CAE202B02C1001144E3 /* UIView+Empty.m */,
 			);
 			name = ELViewKit;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 				BD057C73202AD1F8001144E3 /* LaunchScreen.storyboard in Resources */,
 				BD057C70202AD1F8001144E3 /* Assets.xcassets in Resources */,
 				BD057C6E202AD1F8001144E3 /* Main.storyboard in Resources */,
-				BD057CAA202AEC45001144E3 /* EmptyImage.bundle in Resources */,
+				BD057CB2202B02C1001144E3 /* EmptyImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD057CA3202AE4A7001144E3 /* UIView+Empty.m in Sources */,
 				BD057C6B202AD1F8001144E3 /* ViewController.m in Sources */,
 				BD057C76202AD1F9001144E3 /* main.m in Sources */,
-				BD057CA6202AE4D3001144E3 /* ELEmptyView.m in Sources */,
 				BD057C68202AD1F8001144E3 /* AppDelegate.m in Sources */,
+				BD057CB1202B02C1001144E3 /* UIView+Empty.m in Sources */,
+				BD057CB0202B02C1001144E3 /* ELEmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
