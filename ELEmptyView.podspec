@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ELEmptyView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '自己封装的空界面'
   s.description      = <<-DESC
 TODO: 常用的SDK，方便之后创建新工程的时候使用.
