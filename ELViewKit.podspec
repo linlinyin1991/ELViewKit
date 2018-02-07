@@ -6,25 +6,18 @@ Pod::Spec.new do |s|
 TODO: 常用的SDK，方便之后创建新工程的时候使用.
                        DESC
 
-  s.homepage         = 'https://coding.net/u/ElaineYin/p/ELBaseKitSDK'
+  s.homepage         = 'https://github.com/linlinyin1991/ELViewKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ElaineYin' => 'linlinyin1991@163.com' }
   s.platform         = :ios, "8.0"
-  s.source           = { :git => 'https://git.coding.net/ElaineYin/ELBaseKitSDK.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/linlinyin1991/ELViewKit.git', :tag => s.version }
   s.frameworks = 'UIKit'  
-  s.resources = "Resources/*.png"
   s.ios.deployment_target = '8.0'
-  s.public_header_files = 'ELBaseSDK/ELBaseKit.h'
+  s.public_header_files = 'ELViewKit/UIView+Empty.h'
   s.requires_arc = true
-  s.source_files = 'ELBaseSDK/**/*'  
-  s.subspec 'ELViewExtension' do |ss|
-      ss.source_files = 'ELBaseSDK/ELViewExtension/**/*'
-      ss.public_header_files = 'ELBaseSDK/ELViewExtension/UIView+ELExtension.h'
-  end
-  s.subspec 'ELDateExtension' do |ss|
-      ss.source_files = 'ELBaseSDK/ELDateExtension/**/*'
-      ss.public_header_files = 'ELBaseSDK/ELDateExtension/NSDate+ELExtension.h'
-  end
-
-end
+  s.source_files = 'ELViewKit/*.{h,m}' 
+  s.resources = "ELViewKit/EmptyImage.bundle" 
+  s.dependency 'ELKitSDK/ELViewCategory'
+  s.dependency 'Masonry'
+ end
  
