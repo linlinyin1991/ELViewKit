@@ -13,11 +13,11 @@ TODO: 常用的SDK，方便之后创建新工程的时候使用.
   s.source           = { :git => 'https://github.com/linlinyin1991/ELViewKit.git', :tag => s.version }
   s.frameworks = 'UIKit'  
   s.ios.deployment_target = '8.0'
-  s.public_header_files = 'ELViewKit/UIView+Empty.h'
+  s.public_header_files = 'ELEmptyView/UIView+Empty.h'
   s.requires_arc = true
-  s.source_files = 'ELViewKit/*.{h,m}' 
-  s.resources = "ELViewKit/EmptyImage.bundle" 
-  s.dependency 'ELKitSDK/ELViewCategory'
+  s.source_files = 'ELEmptyView/*.{h,m}' 
+  s.resources = "ELEmptyView/EmptyImage.bundle" 
+  s.dependency 'ELEmptyView/ELViewCategory'
   s.dependency 'Masonry'
  end
  
