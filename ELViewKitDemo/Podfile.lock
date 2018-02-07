@@ -1,0 +1,15 @@
+PODS:
+  - ELKitSDK/ELViewCategory (0.2.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - ELKitSDK/ELViewCategory (~> 0.2.0)
+  - Masonry
+
+SPEC CHECKSUMS:
+  ELKitSDK: ccaeb0d536cd33eb126dd30775b290cc9251086f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: bf783af041277a450398b2b76d98a1e218591932
+
+COCOAPODS: 1.4.0

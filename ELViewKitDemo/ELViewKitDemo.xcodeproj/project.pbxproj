@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92C595D8C6A7243C5D9204EF /* libPods-ELViewKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 498449916B7D100D7BBA49CE /* libPods-ELViewKitDemo.a */; };
 		BD057C68202AD1F8001144E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C67202AD1F8001144E3 /* AppDelegate.m */; };
 		BD057C6B202AD1F8001144E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C6A202AD1F8001144E3 /* ViewController.m */; };
 		BD057C6E202AD1F8001144E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD057C6C202AD1F8001144E3 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		BD057C76202AD1F9001144E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C75202AD1F9001144E3 /* main.m */; };
 		BD057C80202AD1F9001144E3 /* ELViewKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C7F202AD1F9001144E3 /* ELViewKitDemoTests.m */; };
 		BD057C8B202AD1F9001144E3 /* ELViewKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057C8A202AD1F9001144E3 /* ELViewKitDemoUITests.m */; };
+		BD057CA3202AE4A7001144E3 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057CA2202AE4A7001144E3 /* UIView+Empty.m */; };
+		BD057CA6202AE4D3001144E3 /* ELEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD057CA5202AE4D3001144E3 /* ELEmptyView.m */; };
+		BD057CAA202AEC45001144E3 /* EmptyImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD057CA9202AEC45001144E3 /* EmptyImage.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EAA23E5E90359D01FE7A39C /* Pods-ELViewKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELViewKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELViewKitDemo/Pods-ELViewKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		498449916B7D100D7BBA49CE /* libPods-ELViewKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELViewKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F1437CA52B95C1DC7252D5 /* Pods-ELViewKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELViewKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELViewKitDemo/Pods-ELViewKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BD057C63202AD1F8001144E3 /* ELViewKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELViewKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD057C66202AD1F8001144E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD057C67202AD1F8001144E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		BD057C86202AD1F9001144E3 /* ELViewKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELViewKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD057C8A202AD1F9001144E3 /* ELViewKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELViewKitDemoUITests.m; sourceTree = "<group>"; };
 		BD057C8C202AD1F9001144E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD057CA1202AE4A7001144E3 /* UIView+Empty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Empty.h"; path = "../ELViewKit/UIView+Empty.h"; sourceTree = "<group>"; };
+		BD057CA2202AE4A7001144E3 /* UIView+Empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Empty.m"; path = "../ELViewKit/UIView+Empty.m"; sourceTree = "<group>"; };
+		BD057CA4202AE4D3001144E3 /* ELEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ELEmptyView.h; path = ../ELViewKit/ELEmptyView.h; sourceTree = "<group>"; };
+		BD057CA5202AE4D3001144E3 /* ELEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ELEmptyView.m; path = ../ELViewKit/ELEmptyView.m; sourceTree = "<group>"; };
+		BD057CA9202AEC45001144E3 /* EmptyImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = EmptyImage.bundle; path = ../ELViewKit/EmptyImage.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C595D8C6A7243C5D9204EF /* libPods-ELViewKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +91,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0219175A3E5FA8D731435CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EAA23E5E90359D01FE7A39C /* Pods-ELViewKitDemo.debug.xcconfig */,
+				A5F1437CA52B95C1DC7252D5 /* Pods-ELViewKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8517CC95E8C8D7C0BE460ECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498449916B7D100D7BBA49CE /* libPods-ELViewKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD057C5A202AD1F8001144E3 = {
 			isa = PBXGroup;
 			children = (
+				BD057CA0202AE385001144E3 /* ELViewKit */,
 				BD057C65202AD1F8001144E3 /* ELViewKitDemo */,
 				BD057C7E202AD1F9001144E3 /* ELViewKitDemoTests */,
 				BD057C89202AD1F9001144E3 /* ELViewKitDemoUITests */,
 				BD057C64202AD1F8001144E3 /* Products */,
+				0219175A3E5FA8D731435CE9 /* Pods */,
+				8517CC95E8C8D7C0BE460ECB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +165,18 @@
 			path = ELViewKitDemoUITests;
 			sourceTree = "<group>";
 		};
+		BD057CA0202AE385001144E3 /* ELViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				BD057CA9202AEC45001144E3 /* EmptyImage.bundle */,
+				BD057CA1202AE4A7001144E3 /* UIView+Empty.h */,
+				BD057CA2202AE4A7001144E3 /* UIView+Empty.m */,
+				BD057CA4202AE4D3001144E3 /* ELEmptyView.h */,
+				BD057CA5202AE4D3001144E3 /* ELEmptyView.m */,
+			);
+			name = ELViewKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD057C8F202AD1F9001144E3 /* Build configuration list for PBXNativeTarget "ELViewKitDemo" */;
 			buildPhases = (
+				62D9AA4BD5800CE2C0919450 /* [CP] Check Pods Manifest.lock */,
 				BD057C5F202AD1F8001144E3 /* Sources */,
 				BD057C60202AD1F8001144E3 /* Frameworks */,
 				BD057C61202AD1F8001144E3 /* Resources */,
+				385DBE0680F671666A9556EA /* [CP] Embed Pods Frameworks */,
+				CE903C134EDD1BB6CFA40BAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +289,7 @@
 				BD057C73202AD1F8001144E3 /* LaunchScreen.storyboard in Resources */,
 				BD057C70202AD1F8001144E3 /* Assets.xcassets in Resources */,
 				BD057C6E202AD1F8001144E3 /* Main.storyboard in Resources */,
+				BD057CAA202AEC45001144E3 /* EmptyImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +309,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		385DBE0680F671666A9556EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELViewKitDemo/Pods-ELViewKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D9AA4BD5800CE2C0919450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELViewKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE903C134EDD1BB6CFA40BAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELViewKitDemo/Pods-ELViewKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD057C5F202AD1F8001144E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD057CA3202AE4A7001144E3 /* UIView+Empty.m in Sources */,
 				BD057C6B202AD1F8001144E3 /* ViewController.m in Sources */,
 				BD057C76202AD1F9001144E3 /* main.m in Sources */,
+				BD057CA6202AE4D3001144E3 /* ELEmptyView.m in Sources */,
 				BD057C68202AD1F8001144E3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +530,13 @@
 		};
 		BD057C90202AD1F9001144E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAA23E5E90359D01FE7A39C /* Pods-ELViewKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8H4H68ETA;
 				INFOPLIST_FILE = ELViewKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BKJKHUD.ELViewKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +546,13 @@
 		};
 		BD057C91202AD1F9001144E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F1437CA52B95C1DC7252D5 /* Pods-ELViewKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8H4H68ETA;
 				INFOPLIST_FILE = ELViewKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BKJKHUD.ELViewKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
