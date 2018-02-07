@@ -17,7 +17,7 @@ TODO: 常用的SDK，方便之后创建新工程的时候使用.
   s.requires_arc = true
   s.source_files = 'ELEmptyView/*.{h,m}' 
   s.resources = "ELEmptyView/EmptyImage.bundle" 
-  s.dependency 'ELEmptyView/ELViewCategory'
+  s.dependency 'ELKitSDK/ELViewCategory'
   s.dependency 'Masonry'
  end
  
